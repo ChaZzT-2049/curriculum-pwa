@@ -1,0 +1,45 @@
+[
+	{
+		"domicilio": "Calle Islas Marianas #24 Villamar 2",
+		"numero": "9841913638",
+		"correo": "2005041@utrivieramaya.edu.mx",
+		"edad": "19 años",
+		"fechaNacimiento": "9 de Agosto del 2002",
+		"lugarNacimiento": "Atotonga, Veracruz",
+		"nacionalidad": "Mexicana"
+	},
+	{
+		"php": "Basico",
+		"javascript": "Basico",
+		"html": "Intermedio",
+		"css": "Intermedio",
+		"python": "Basico"
+	},
+	{
+		"mysql": "Intermedio"
+	},
+	{
+		"español": "Nativo",
+		"ingles": "Pre-Intermedio"
+	},
+	{
+		"nombre": "Carlos Eduardo Cortes Fernandez",
+		"quienSoy": "Soy un estudiante de la universidad tecnologica de la riviera maya, actualmente cursando el 5to cuatrimestre de la carrera de tecnologias de la informacion y de la comunicacion, en el area de desarrollo de software multiplataforma.",
+		"puestoSolicitado": "Tecnico en Sistemas"
+	},
+	{
+		"secundaria": "Edmundo Villalba Rodriguez - Terminada",
+		"preparatoria": "Colegio de Estudios Científicos y Tecnológicos del Estado - Terminada",
+		"universidad": "Universidad Tecnologica de la Riviera Maya - En Proceso"
+	},
+	{
+		"empresa": "Hotel Hilton",
+		"puesto": "Auxiliar",
+		"tiempo": "1 Año"
+	},
+	{
+		"nombreRef": "Gustavo",
+		"cargo": "Tecnico",
+		"celular": "123456789"
+	}
+]

@@ -1,0 +1,98 @@
+*{
+    border-radius: 2px;
+    border-width: 5px;
+    border-color: black;
+}
+body{
+    display: grid;
+    grid-template-columns: repeat(3, fr);
+    grid-template-rows: repeat(6, fr);
+    grid-template-areas: 
+    'header header header'
+    'aside section section'
+    'aside section section'
+    'aside section section'
+    'aside section section'
+    'aside section section'
+    'aside section section';
+    gap: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+header{
+    grid-area: header;
+    background-color: rgb(15, 72, 179);
+    color: white;
+    display: grid;
+    place-content: center;
+}
+aside{
+    grid-area: aside;
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+}
+section{
+    grid-area: section;
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+}
+article{
+    text-align: center;
+    height: 100%;
+    display: grid;
+    background-color: cadetblue;
+    color: white;
+}
+.photo{
+    background-color: blanchedalmond;
+}
+.datos{
+    text-align: left;
+    font-size: medium;
+    background-color: blanchedalmond;
+    color: black;
+}
+.lenguajes{
+    text-align: left;
+    font-size: medium;
+    background-color: blanchedalmond;
+    color: black;
+}
+.dbs{
+    text-align: left;
+    font-size: medium;
+    background-color: blanchedalmond;
+    color: black;
+}
+.idiomas{
+    text-align: left;
+    font-size: medium;
+    background-color: blanchedalmond;
+    color: black;
+}
+.info{
+    text-align: left;
+    font-size: medium;
+    background-color: blanchedalmond;
+    color: black;
+}
+.grados{
+    text-align: left;
+    font-size: medium;
+    background-color: blanchedalmond;
+    color: black;
+}
+.trabajos{
+    text-align: left;
+    font-size: medium;
+    background-color: blanchedalmond;
+    color: black;
+}
+.contactos{
+    text-align: left;
+    font-size: medium;
+    background-color: blanchedalmond;
+    color: black;
+}
