@@ -6,7 +6,7 @@
     "theme_color": "#000000",
     "orientation": "portrait",
     "display": "standalone",
-    "id": "https://chazzt-2049.github.io/curriculum-pwa/",
+    "start_url": "https://chazzt-2049.github.io/curriculum-pwa/",
     "lang": "es-MX",
     "icons": [
         {
