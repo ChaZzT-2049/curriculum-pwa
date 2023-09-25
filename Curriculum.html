@@ -27,75 +27,87 @@
   <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
   <title>Curriculum Carlos</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <header>Curriculum Vitae</header>
   <aside>
-    <article>
-      Foto
-      <div class="photo"><img src="imagenes/borreload.png" alt="Foto" width=100 height=100></div>
-    </article>
-    <article>
-      Datos Personales
-      <div class="datos">
-        <ul id="datosp">
+    <section class="persona">
+        <img src="imagenes/perfil.PNG" alt="foto">
+        <h3 id="titulo"></h3>
+    </section>
+    <section>
+        <article>
+            <h4>Correo</h4>
+            <a id="correo"></a>
+        </article>
+        <br>
+        <article>
+            <h4>Contacto</h4>
+            <span id="tel"></span>
+        </article>
+    </section>
+    <section class="conocimientos">
+        <h3>Conocimientos</h3>
+        <article>
+            <h4>Idiomas</h4>
+            <ul id="idiomas">
+            </ul>
+        </article>
+        <article>
+            <h4>Programas</h4>
+            <ul id="programas">
+            </ul>
+        </article>
+        <article>
+            <h4>Lenguajes</h4>
+            <ul id="programacion">
+            </ul>
+        </article>
+        <article>
+            <h4>Bases de Datos</h4>
+            <ul id="dbs">
+            </ul>
+        </article>
+    </section>
+</aside>
+<main>
+    <header>
+        <h1 id="nombre"></h1>
+    </header>
+    <section>
+        <p id="desc">
+        </p>
+    </section>
+    <section>
+        <h3>Perfil</h3>
+        <p id="perfil">
+        </p>
+    </section>
+    <section>
+        <h3>Educacion</h3>
+        <div id="educacion">
+        </div>
+    </section>
+    <section>
+        <h3>Experiencia Laboral</h3>
+        <div id="experiencia">
+        </div>
+    </section>
+    <section>
+        <h3>Compretencias</h3>
+        <ul id="competencias">
         </ul>
-      </div>
-    </article>
-    <article>
-      Lenguajes de programacion
-      <div class="lenguajes">
-        <ul id="lp">
-        </ul>
-      </div>
-    </article>
-    <article>
-      Bases de Datos
-      <div class="dbs">
-        <ul id="db">
-        </ul>
-      </div>
-    </article>
-    <article>
-      Idiomas
-      <div class="idiomas">
-        <ul id="im">
-        </ul>
-      </div>
-    </article>
-  </aside>
-  <section>
-    <article>
-      Perfil
-      <div class="info">
-        <ul id="inf">
-        </ul>
-      </div>
-    </article>
-    <article>
-      Formacion Academica
-      <div class="grados">
-        <ul id="fa">
-        </ul>
-      </div>
-    </article>
-    <article>
-      Experiencia laboral
-      <div class="trabajos">
-        <ul id="tb">
-        </ul>
-      </div>
-    </article>
-    <article>
-      Referencias
-      <div class="contactos">
-        <ul id="ref">
-        </ul>
-      </div>
-    </article>
-  </section>
+    </section>
+    <footer>
+        <h5><a href="">Portafolio de Proyectos</a></h5>
+        <h5><a href="">Linkedin</a></h5>
+    </footer>
+</main>
 </body>
-<script src="/fetch.js"></script>
-<script src="/script.js"></script>
+<script src="fetch.js"></script>
+<script src="script.js"></script>
 </html>

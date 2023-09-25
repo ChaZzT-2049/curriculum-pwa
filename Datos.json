@@ -1,45 +1,106 @@
 [
-	{
-		"domicilio": "Calle Islas Marianas #24 Villamar 2",
-		"numero": "9841913638",
-		"correo": "2005041@utrivieramaya.edu.mx",
-		"edad": "19 años",
-		"fechaNacimiento": "9 de Agosto del 2002",
-		"lugarNacimiento": "Atotonga, Veracruz",
-		"nacionalidad": "Mexicana"
-	},
-	{
-		"php": "Basico",
-		"javascript": "Basico",
-		"html": "Intermedio",
-		"css": "Intermedio",
-		"python": "Basico"
-	},
-	{
-		"mysql": "Intermedio"
-	},
-	{
-		"español": "Nativo",
-		"ingles": "Pre-Intermedio"
-	},
-	{
-		"nombre": "Carlos Eduardo Cortes Fernandez",
-		"quienSoy": "Soy un estudiante de la universidad tecnologica de la riviera maya, actualmente cursando el 5to cuatrimestre de la carrera de tecnologias de la informacion y de la comunicacion, en el area de desarrollo de software multiplataforma.",
-		"puestoSolicitado": "Tecnico en Sistemas"
-	},
-	{
-		"secundaria": "Edmundo Villalba Rodriguez - Terminada",
-		"preparatoria": "Colegio de Estudios Científicos y Tecnológicos del Estado - Terminada",
-		"universidad": "Universidad Tecnologica de la Riviera Maya - En Proceso"
-	},
-	{
-		"empresa": "Hotel Hilton",
-		"puesto": "Auxiliar",
-		"tiempo": "1 Año"
-	},
-	{
-		"nombreRef": "Gustavo",
-		"cargo": "Tecnico",
-		"celular": "123456789"
-	}
+    {
+        "datos": {
+            "nombre": "Carlos Eduardo Cortes Fernandez",
+            "titulo": "Ingeniero en Desarrollo y Gestión de Software (en curso)",
+            "desc": "Programador con un gran conocimiento en el desarrollo de aplicaciones además de una amplia experiencia en el manejo y soporte de redes informáticas.",
+            "perfil": "Ingeniero en curso en busca de oportunidades laborales que permitan potenciar mis habilidades y conocimientos en el área.",
+            "correo": "careducor0902fdez@gmail.com",
+            "tel": "984-191-36-38"
+        },
+        "conocimientos": {
+            "idiomas": [
+                {
+                    "idioma": "Ingles",
+                    "nivel": "C2 - Intermedio" 
+                },
+                {
+                    "idioma": "Español",
+                    "nivel": "Nativo"
+                }
+            ],
+            "programas": [
+                {
+                    "nombre": "Office"
+                },
+                {
+                    "nombre": "Git"
+                },
+                {
+                    "nombre": "Github"
+                }
+            ],
+            "programacion": [
+                {
+                    "lenguaje": "HTML"                    
+                },
+                {
+                    "lenguaje": "CSS"
+                },
+                {
+                    "lenguaje": "JS"
+                },
+                {
+                    "lenguaje": "Java"
+                },
+                {
+                    "lenguaje": "PHP"
+                }
+            ],
+            "basesDatos": [
+                {
+                    "nombre": "MySQL"
+                },
+                {
+                    "nombre": "Mongo DB"
+                }
+            ]
+        },
+        "educacion":[
+            {
+                "entidad": "Universidad Tecnológica De La Riviera Maya",
+                "fechaEstado": "2020-2022",
+                "carrera": "Carrera de Tecnologías de la Información Área de Desarrollo de Software Multiplataforma."
+            },
+            {
+                "entidad": "Colegio de Estudios Científicos y Tecnológicos",
+                "fechaEstado": "2017-2020",
+                "carrera": "Carrera de Técnico en Soporte y Mantenimiento de Equipo de Cómputo."
+            }
+        ],
+        "experiencia": [
+            {
+                "lugar": "Hotal Ocean Riviera Paradise",
+                "puesto": "Practicante - Auxiliar de Sistemas y proyectos de TI",
+                "fecha": "2022",
+                "desc": "Auxilio en las operaciones del área de sistemas, soporte huespedes y colaboradores. Desarrollo de una aplicación para el control de las actividades del area."
+            },
+            {
+                "lugar": "Hotel Hilton & Panama Jack",
+                "puesto": "Practicante - Auxiliar de Sistemas",
+                "fecha": "2019",
+                "desc": "Auxilio en el manejo de la red de trabajadores y huéspedes, haciendo múltiples actividades durante una jornada laboral."
+            }
+        ],
+        "competencias": [
+            {
+                "competencia": "Resolución de problemas."
+            },
+            {
+                "competencia": "Pensamiento crítico."
+            },
+            {
+                "competencia": "Juicio y toma de decisiones."
+            },
+            {
+                "competencia": "Creatividad."
+            },
+            {
+                "competencia": "Coordinación."
+            },
+            {
+                "competencia": "Inteligencia emocional."
+            }
+        ]
+    }
 ]
